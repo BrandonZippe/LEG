@@ -1,0 +1,507 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  color: #222;
+  margin: 0px;
+}
+.logo {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+header {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+    padding-bottom: 2em;
+    overflow: hidden;
+    position: relative;
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: 100;
+  text-align: center;
+}
+
+.comingsoon {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+}
+
+
+main {float: left;width: 100%;position: relative;background:#fff;}
+.contentBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+}
+.statTile {
+      max-width: 250px;
+    text-align: center;
+    margin: 0 1em 2em 1em;
+    padding: 2em 1em;
+    background: #f1f1f1;
+    cursor: pointer;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 0px 1px 4px #ccc;
+}
+.statTile:hover {
+  background-color: #fff;
+}
+.stats span {
+      float: left;
+    width: 100%;
+    color: #444;
+    margin: 2px 0;
+    padding: 2px 0;
+}
+.winperc:before {content: 'Win %: ';}
+.pf:before {content: 'Points for: ';}
+.pa:before {content: 'Points against: ';}
+.titles:before {content: 'Titles: ';}
+.toiletBowl:before {content: 'Toilet Bowls: ';}
+.wins:before {content: 'Wins: ';}
+.losses:before {content: 'Loses: ';}
+.ties:before {content: 'Ties: ';}
+.aqui:before {content: 'Aquisitions: ';}
+.trades:before {content: 'Trades: ';}
+.team {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: 'Alfa Slab One', cursive;
+
+}
+.record {
+      font-size: 22px;
+    font-weight: bold;
+    color: #777 !important;
+}
+nav{
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em 0;
+}
+.sortBtn,
+.seasonSortBtn {
+      padding: .25em .5em;
+    margin: .25em;
+    border: solid 1px #ccc;
+    border-radius: 25px;
+    background: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+.sortBtn:hover,
+.seasonSortBtn:hover {background: #f1f1f1;}
+.sortBtn.selected,
+.seasonSortBtn.selected {
+  background: #888;
+  color: #fff;
+}
+.sortedBy {
+  background: #fff;
+  box-shadow: 0px 1px 4px #aaa;
+}
+footer {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  background: #f1f1f1;
+  box-sizing: border-box;
+}
+
+footer a {color: #444;}
+
+.rank {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  background: #ccc;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.currentChamp {
+  /* background: #f1f1f1 url('../assets/img/gold.png') center bottom no-repeat; */
+  background: #fff;
+  border: solid 1px #D5AD6D;
+}
+
+.currentChamp .rank {
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+              radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+}
+.currentChamp:hover .rank {
+  color:	#D5AD6D; /*if no support for background-clip*/
+  background: -webkit-linear-gradient(transparent, transparent),
+  -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+  background: -o-linear-gradient(transparent, transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.currentChamp:hover {
+  background: #222;
+}
+
+.currentToilet {
+  background-image: url('../assets/img/toilet2.png');
+  background-position: center center;
+  background-color: #f1f1f1;
+  background-repeat: no-repeat;
+}
+
+.currentToilet:hover {
+  background-color: #fff;
+}
+
+.currentHolder img {
+  width: 100%;
+  height: 35px;
+}
+
+#troll {
+  position: absolute;
+  bottom: -130px;
+  transition: all ease 6s;
+}
+
+#troll.peek {bottom: 0;}
+
+header nav {padding-bottom: 0;}
+nav div {
+  padding: .5em 1em;
+  margin: 0 .5em;
+  background: #f1f1f1;
+  border: solid 1px #ccc;
+  color: #222;
+  cursor: pointer;
+  border-radius: 25px;
+}
+nav div:hover {background: #ccc;}
+nav div.on {
+  background: #222;
+  color: #fff;
+}
+
+.fancy {
+  display: block;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 20px;
+}
+
+.currentChamp .stats span {
+color:	#D5AD6D; /*if no support for background-clip*/
+background: -webkit-linear-gradient(transparent, transparent),
+-webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+background: -o-linear-gradient(transparent, transparent);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.currentChamp:hover .stats {color: #fff !important;background:#fff !important;}
+
+.closeStats {
+  float: right;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+}
+
+#teamStats {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#teamStatsInner,
+#compareStatsInner {
+  background: #f1f1f1;
+  max-width: 600px;
+  width: 100%;
+  margin: 1em auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 1em;
+  top: 0;
+  overflow-y: scroll;
+  border-radius: 2px;
+  border: solid 1px #ccc;
+  box-sizing: border-box;
+  display: none;
+}
+
+#teamStatsInner.visible,
+#compareStatsInner.visible {
+  display: block;
+}
+
+#teamStats nav {padding: .5em 0;}
+
+#teamStats h2 {
+  text-align: center;
+  font-family: 'Alfa Slab One', sans-serif;
+  margin: 0;
+  border-bottom: solid 1px #222;
+  text-transform: capitalize;
+}
+
+#teamStats .stats {display: none;}
+#teamStats .stats.selected {display: block;}
+
+.teamName {
+  text-align: center;
+  float: left;
+  width: 100%;
+  border-bottom: solid 1px #ccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding-bottom: .25em;
+}
+
+.teamLogo {
+  margin-right: .5em;
+  width: 55px;
+  border-radius: 100%;
+  border: solid 2px #fff;
+  height: 55px;
+  box-shadow: 0px 1px 3px #999;
+  overflow: hidden;
+}
+.teamLogo img {
+  width: 100%;
+  height: 100%;
+}
+#teamStatsInner .stats span {
+  text-align: right;
+  border-bottom: dotted 1px #ccc;
+  font-size: 16px;
+}
+
+#teamStatsInner .stats span:before {
+  float: left;
+  color: #666;
+}
+
+#compStats {
+  float: left;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 2em;
+}
+
+#compStats div {
+  float: left;
+  box-sizing: border-box;
+}
+.playerBox {
+  width: 50%;
+  font-family: 'Alfa Slab One', sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+  border-bottom: solid 5px;
+}
+
+#oppPlayer:before {
+    content: 'vs';
+    text-transform: lowercase;
+    font-size: 14px;
+    float: left;
+    margin-left: -.5em;
+    color: #222;
+}
+
+#curPlayer, #curPlayerStats {text-align: left;color:#222;}
+#oppPlayer,#oppPlayerStats {text-align: right;color:#777;float: right !important;}
+
+#curPlayerStats {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#oppPlayerStats {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.compBar,
+.compBarStats {
+  float: left;
+  width: 100%;
+}
+
+.midStats {
+  width: 100%;
+  position: relative;
+}
+.compBar div {
+  height: 30px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 20px;
+}
+.curBar {
+  background: #222;
+}
+.tieBar {
+  background: #ccc;
+}
+.tieBar:after {
+  content: 'Tie(s)';
+  font-size: 14px;
+  color: #999;
+}
+.oppBar {
+  background: #777;
+}
+
+.compBarStats {
+  padding: 1em;
+  background: #fff;
+  border: solid 1px #ccc;
+  border-bottom: none;
+  margin-top: 1em;
+}
+
+.barStats {
+  font-size: 22px;
+  font-family: 'Alfa Slab One', cursive;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 85%;
+  min-width: 15%;
+}
+
+/* .barWins:after {
+content: 'wins';
+font-size: 10px;
+margin-left: 2px;
+}
+
+.totalPts:after {content: 'points';font-size: 10px;margin-left: 2px;} */
+
+#tieStats {text-align: center;color: #999;}
+.wPerc{
+  font-size: 12px;
+  font-family: 'Roboto Condensed';
+  margin: 0 .25em;
+
+}
+
+.homeAway {border: solid 1px #ccc;width: 48%;}
+#road {float:right !important;}
+
+.compBarStats h3 {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+  font-family: 'Alfa Slab One', cursive;
+  border-bottom: solid 1px #ccc;
+}
+
+.curBar .wPerc {
+  color: #fff;
+  text-align: left;
+  float: left;
+  margin-left: 1em;
+  font-size: 14px;
+}
+.oppBar .wPerc {
+  color: #fff;
+  text-align: right;
+  float: right;
+  margin-right: 1em;
+  font-size: 14px;
+}
+
+.sweep {
+  background-image: url(../assets/img/sweep.gif);
+  background-position: 0px 0px;
+  animation: animatedBackground 10s linear infinite;
+  -moz-animation: animatedBackground 10s linear infinite;
+  -webkit-animation: animatedBackground 10s linear infinite;
+  -ms-animation: animatedBackground 10s linear infinite;
+  -o-animation: animatedBackground 10s linear infinite;
+  background-size: contain;
+  color: #fff;
+}
+
+@keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -100% 0; }
+}
+@-moz-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -100% 0; }
+}
+@-webkit-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -100% 0; }
+}
+@-ms-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -100% 0; }
+}
+@-o-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -100% 0; }
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+  #teamStats h2 {
+    text-overflow: ellipsis;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
