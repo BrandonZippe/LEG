@@ -24,16 +24,16 @@ var dataHandler = {
           var reqPath = leagueDataPath + eachYear;
           // console.log(Number(eachYear));
           // console.log(Number(curYear));
-          if (Number(eachYear) === Number(curYear)) {
-            // console.log(curYear);
-            //reqPath = curYearLeaguePath + eachYear + curYearLeaguePathEnd;
-            //reqPath = "https://fantasy.espn.com/apis/v3/games/ffl/seasons/2019/segments/0/leagues/628822?view=mMatchupScore&view=mScoreboard&view=mStatus&view=mSettings&view=mTeam&view=mPendingTransactions&view=modular&view=mNav";
-            //console.log(reqPath);
-            var jsonFile = 'json/' + curYear + '.json';
-            $.getJSON(jsonFile, function(data) {
-              dataHandler.prepData(data);
-            });
-          } else {
+          // if (Number(eachYear) === Number(curYear)) {
+          //   // console.log(curYear);
+          //   //reqPath = curYearLeaguePath + eachYear + curYearLeaguePathEnd;
+          //   //reqPath = "https://fantasy.espn.com/apis/v3/games/ffl/seasons/2019/segments/0/leagues/628822?view=mMatchupScore&view=mScoreboard&view=mStatus&view=mSettings&view=mTeam&view=mPendingTransactions&view=modular&view=mNav";
+          //   //console.log(reqPath);
+          //   var jsonFile = 'json/' + curYear + '.json';
+          //   $.getJSON(jsonFile, function(data) {
+          //     dataHandler.prepData(data);
+          //   });
+          // } else {
             $.ajax({
                   url: reqPath,
                   type: 'GET',
@@ -45,18 +45,20 @@ var dataHandler = {
                     }
                   },
                   error: function (xhr, textStatus, errorThrown) {
-                    if (Number(eachYear) != Number(curYear)) {
-                      $.getJSON( "./json/" + eachYear + ".json", function( data ) {
+                    try {
+                      var jsonFile = 'json/' + curYear + '.json';
+                      $.getJSON(jsonFile, function(data) {
                         dataHandler.prepData(data);
-                  		});
-                    } else {
+                      });
+
+                    } catch(err) {
                       //TODO Handle error
                       var errorMsg = textStatus + ': No data available for the ' + eachYear + ' season yet.';
                       console.log(errorMsg);
                     }
                   }
               });
-          }
+          //}
 
 
       });
