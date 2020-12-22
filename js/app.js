@@ -22,19 +22,20 @@ var dataHandler = {
 
           var eachYear = leagueYears[i];
           var reqPath = leagueDataPath + eachYear;
-
-          // if (Number(eachYear) === 2019) {
-          //   console.log(curYear);
-          //   //reqPath = curYearLeaguePath + eachYear + curYearLeaguePathEnd;
-          //   reqPath = "https://fantasy.espn.com/apis/v3/games/ffl/seasons/2019/segments/0/leagues/628822?view=mMatchupScore&view=mScoreboard&view=mStatus&view=mSettings&view=mTeam&view=mPendingTransactions&view=modular&view=mNav";
-          //   console.log(reqPath);
-          // }
+          // console.log(Number(eachYear));
+          // console.log(Number(curYear));
+          if (Number(eachYear) === Number(curYear)) {
+            // console.log(curYear);
+            reqPath = curYearLeaguePath + eachYear + curYearLeaguePathEnd;
+            //reqPath = "https://fantasy.espn.com/apis/v3/games/ffl/seasons/2019/segments/0/leagues/628822?view=mMatchupScore&view=mScoreboard&view=mStatus&view=mSettings&view=mTeam&view=mPendingTransactions&view=modular&view=mNav";
+            console.log(reqPath);
+          }
 
           $.ajax({
                 url: reqPath,
                 type: 'GET',
                 dataType: 'json',
-                cache: true,
+                cache: false,
                 success: function (data, textStatus, xhr) {
                   if (textStatus === 'success') {
                     dataHandler.prepData(data[0]);
