@@ -455,9 +455,11 @@ var pageBuilder = {
 				}
 
 				//set current champ
-				if ($.inArray(intYear.toString(), titleYears) != -1) {
+				if ($.inArray(curYear.toString(), titleYears) != -1) {
 					$('#' + team).addClass('currentChamp');
-				}
+				} else if ($.inArray(curYear.toString(), titleYears) != -1) {
+          $('#' + team).addClass('currentChamp');
+        }
 
                 //toilet bowl
                 var tbNum = tbData.length;
@@ -468,9 +470,11 @@ var pageBuilder = {
 				}
 
 				//set current TB
-				if ($.inArray(intYear.toString(), tbYears) != -1) {
+				if ($.inArray(curYear.toString(), tbYears) != -1) {
 					$('#' + team).addClass('currentToilet');
-				}
+				} else if ($.inArray(intYear.toString(), tbYears) != -1) {
+          $('#' + team).addClass('currentToilet');
+        }
 
                 var teamFr = team.replace('_', ' ');
 
