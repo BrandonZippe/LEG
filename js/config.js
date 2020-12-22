@@ -41,7 +41,7 @@ var teamStatTemplate =
 //accolade data
 var accoladeData = {
   'Brandon_Zippe': {
-    'titles': ['2015'],
+    'titles': ['2015', '2020'],
     'toiletBowl': []
   },
   'Chad_Kohl': {
@@ -74,7 +74,7 @@ var accoladeData = {
   },
   'Stephen_Smith': {
     'titles': ['2012'],
-    'toiletBowl': ['2013']
+    'toiletBowl': ['2013', '2020']
   },
   'anthony_washington': {
     'titles': [],
