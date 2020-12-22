@@ -26,33 +26,39 @@ var dataHandler = {
           // console.log(Number(curYear));
           if (Number(eachYear) === Number(curYear)) {
             // console.log(curYear);
-            reqPath = curYearLeaguePath + eachYear + curYearLeaguePathEnd;
+            //reqPath = curYearLeaguePath + eachYear + curYearLeaguePathEnd;
             //reqPath = "https://fantasy.espn.com/apis/v3/games/ffl/seasons/2019/segments/0/leagues/628822?view=mMatchupScore&view=mScoreboard&view=mStatus&view=mSettings&view=mTeam&view=mPendingTransactions&view=modular&view=mNav";
-            console.log(reqPath);
+            //console.log(reqPath);
+            var jsonFile = 'json/' + curYear + '.json';
+            $.getJSON(jsonFile, function(data) {
+              dataHandler.prepData(data);
+            });
+          } else {
+            $.ajax({
+                  url: reqPath,
+                  type: 'GET',
+                  dataType: 'json',
+                  cache: true,
+                  success: function (data, textStatus, xhr) {
+                    if (textStatus === 'success') {
+                      dataHandler.prepData(data[0]);
+                    }
+                  },
+                  error: function (xhr, textStatus, errorThrown) {
+                    if (Number(eachYear) != Number(curYear)) {
+                      $.getJSON( "./json/" + eachYear + ".json", function( data ) {
+                        dataHandler.prepData(data);
+                  		});
+                    } else {
+                      //TODO Handle error
+                      var errorMsg = textStatus + ': No data available for the ' + eachYear + ' season yet.';
+                      console.log(errorMsg);
+                    }
+                  }
+              });
           }
 
-          $.ajax({
-                url: reqPath,
-                type: 'GET',
-                dataType: 'json',
-                cache: false,
-                success: function (data, textStatus, xhr) {
-                  if (textStatus === 'success') {
-                    dataHandler.prepData(data[0]);
-                  }
-                },
-                error: function (xhr, textStatus, errorThrown) {
-                  if (Number(eachYear) != Number(curYear)) {
-                    $.getJSON( "./json/" + eachYear + ".json", function( data ) {
-                      dataHandler.prepData(data);
-                		});
-                  } else {
-                    //TODO Handle error
-                    var errorMsg = textStatus + ': No data available for the ' + eachYear + ' season yet.';
-                    console.log(errorMsg);
-                  }
-                }
-            });
+
       });
     },
     prepData: function(data) {
@@ -455,11 +461,9 @@ var pageBuilder = {
 				}
 
 				//set current champ
-				if ($.inArray(curYear.toString(), titleYears) != -1) {
+				if ($.inArray(intYear.toString(), titleYears) != -1) {
 					$('#' + team).addClass('currentChamp');
-				} else if ($.inArray(curYear.toString(), titleYears) != -1) {
-          $('#' + team).addClass('currentChamp');
-        }
+				}
 
                 //toilet bowl
                 var tbNum = tbData.length;
@@ -470,11 +474,9 @@ var pageBuilder = {
 				}
 
 				//set current TB
-				if ($.inArray(curYear.toString(), tbYears) != -1) {
+				if ($.inArray(intYear.toString(), tbYears) != -1) {
 					$('#' + team).addClass('currentToilet');
-				} else if ($.inArray(intYear.toString(), tbYears) != -1) {
-          $('#' + team).addClass('currentToilet');
-        }
+				}
 
                 var teamFr = team.replace('_', ' ');
 
