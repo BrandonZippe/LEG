@@ -22,6 +22,30 @@ var dataHandler = {
 
           var eachYear = leagueYears[i];
           var reqPath = leagueDataPath + eachYear;
+          $.ajax({
+                url: reqPath,
+                type: 'GET',
+                dataType: 'json',
+                cache: true,
+                success: function (data, textStatus, xhr) {
+                  if (textStatus === 'success') {
+                    dataHandler.prepData(data[0]);
+                  }
+                },
+                error: function (xhr, textStatus, errorThrown) {
+                  try {
+                    // var jsonFile = 'json/' + curYear + '.json';
+                    // $.getJSON(jsonFile, function(data) {
+                    //   dataHandler.prepData(data);
+                    // });
+
+                  } catch(err) {
+                    //TODO Handle error
+                    var errorMsg = textStatus + ': No data available for the ' + eachYear + ' season yet.';
+                    console.log(errorMsg);
+                  }
+                }
+            });
           // console.log(Number(eachYear));
           // console.log(Number(curYear));
           // if (Number(eachYear) === Number(curYear)) {
@@ -34,30 +58,7 @@ var dataHandler = {
           //     dataHandler.prepData(data);
           //   });
           // } else {
-            $.ajax({
-                  url: reqPath,
-                  type: 'GET',
-                  dataType: 'json',
-                  cache: true,
-                  success: function (data, textStatus, xhr) {
-                    if (textStatus === 'success') {
-                      dataHandler.prepData(data[0]);
-                    }
-                  },
-                  error: function (xhr, textStatus, errorThrown) {
-                    try {
-                      var jsonFile = 'json/' + curYear + '.json';
-                      $.getJSON(jsonFile, function(data) {
-                        dataHandler.prepData(data);
-                      });
 
-                    } catch(err) {
-                      //TODO Handle error
-                      var errorMsg = textStatus + ': No data available for the ' + eachYear + ' season yet.';
-                      console.log(errorMsg);
-                    }
-                  }
-              });
           //}
 
 
