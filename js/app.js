@@ -34,10 +34,12 @@ var dataHandler = {
                 },
                 error: function (xhr, textStatus, errorThrown) {
                   try {
-                    var jsonFile = 'json/' + curYear + '.json';
-                    $.getJSON(jsonFile, function(data) {
-                      dataHandler.prepData(data);
-                    });
+                    if (Number(eachYear) != Number(curYear)) {
+                      var jsonFile = 'json/' + eachYear + '.json';
+                      $.getJSON(jsonFile, function(data) {
+                        dataHandler.prepData(data);
+                      });
+                    }
 
                   } catch(err) {
                     //TODO Handle error
