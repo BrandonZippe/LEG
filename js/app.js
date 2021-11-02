@@ -405,7 +405,6 @@ var dataHandler = {
 
     },
     buildPlayoffObj: function () {
-        console.log(allPlayoffData);
         var playoffWinsObj = [];
         var playoffWinsArr = [];
         var playoffLossObj = [];
