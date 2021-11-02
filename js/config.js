@@ -19,6 +19,9 @@ var scheduleData = [];
 var allScheduleData = [];
 var allTeamIdData = [];
 var eachTeamIdData = [];
+var allPlayoffData = [];
+var allPlayoffWins = [];
+var allPlayoffLoss = [];
 //date data
 var firstYear = 2012;
 var date = new Date();

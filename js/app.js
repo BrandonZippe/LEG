@@ -125,7 +125,9 @@ var dataHandler = {
                 "record": record,
                 "teamName": teamName,
                 "logo": logo,
-                "transactions": transactions
+                "transactions": transactions,
+                "playoff_wins": [],
+                "playoff_loss": []
             }
 
             teamIdData = {"owner": owner,"teamId": teamId};
@@ -160,7 +162,7 @@ var dataHandler = {
         allSeasonData = _.groupBy(eachTeamData, "season");
 
         if (allLeagueData.length === legYears) {
-            pageBuilder.initPage();
+            //pageBuilder.initPage();
             dataHandler.buildCompData();
         }
 
@@ -293,6 +295,13 @@ var dataHandler = {
 				break;
 			case 'data-tb':
 				target = $('.toiletBowl');
+                break;
+            case 'data-powin':
+                target = $('.poRecord');
+                break;
+            case 'data-poperc':
+                target = $('.poPerc');
+                break;
             default:
                 // code block
         }
@@ -315,7 +324,7 @@ var dataHandler = {
         });
 
         allScheduleData = _.groupBy(scheduleData, "season");
-
+        dataHandler.parsePlayoffData(scheduleData);         
     },
     parseCompData: function(a, b, name) {
         var compData = [];
@@ -370,6 +379,82 @@ var dataHandler = {
     comparePlayers: function (a, b, name, id) {
         dataHandler.parseCompData(a, b, name);
         utils.toggleCompNav(id);
+    },
+    parsePlayoffData: function (data) {
+        $.each(data, function(i){
+            var games = data[i].schedule;
+            var playoffGames = [];
+
+            $.each(games, function(index){
+                var isPlayoff = games[index].playoffTierType != "NONE" && games[index].winner != "UNDECIDED";
+                if (isPlayoff) {
+                    playoffGames.push(games[index]);
+                }
+
+            });
+
+            var allPlayoffGames = {
+                "schedule": playoffGames,
+                "season": data[i].season
+            }
+
+            allPlayoffData.push(allPlayoffGames);
+        });
+
+        dataHandler.buildPlayoffObj();
+
+    },
+    buildPlayoffObj: function () {
+        console.log(allPlayoffData);
+        var playoffWinsObj = [];
+        var playoffWinsArr = [];
+        var playoffLossObj = [];
+        var playoffLossArr = [];
+        $.each(allPlayoffData, function(i){
+            var games = allPlayoffData[i].schedule;
+            var season = allPlayoffData[i].season;
+            $.each(games, function(index){
+                var winner = games[index].winner;
+                var idWin = winner == "AWAY" ? games[index].away.teamId : games[index].home.teamId;
+                var idLoss = winner == "AWAY" ? games[index].home.teamId : games[index].away.teamId;
+                
+                if (season <= 2016 && idWin === 3) {
+                    idWin = washId;
+                }
+                if (season <= 2018 && idWin === 12) {
+                    idWin = chadId;
+                }
+
+                if (season <= 2016 && idLoss === 3) {
+                    idLoss = washId;
+                }
+                if (season <= 2018 && idLoss === 12) {
+                    idLoss = chadId;
+                }
+
+                var playoffWins = {
+                    "id": idWin,
+                    "season": season
+                }
+                var playoffLoss = {
+                    "id": idLoss,
+                    "season": season
+                }
+                playoffWinsObj.push(playoffWins);
+                playoffLossObj.push(playoffLoss);
+                
+            });
+        });
+        playoffWinsArr = _.groupBy(playoffWinsObj, "id");
+        playoffLossArr = _.groupBy(playoffLossObj, "id");
+
+        allPlayoffWins.push(playoffWinsArr);
+        allPlayoffLoss.push(playoffLossArr);
+
+        if (allLeagueData.length === legYears) {
+            pageBuilder.initPage();
+            //dataHandler.buildCompData();
+        }
     }
 }
 
@@ -465,6 +550,14 @@ var pageBuilder = {
                     titleYearsStr = ' (' + titleYears + ')';
 				}
 
+                //Playoff Record
+                var playoffWins = allPlayoffWins[0][teamId].length;
+                var playoffLoss = allPlayoffLoss[0][teamId].length;
+
+                //playoff win percentage
+                var playoffWinPerc = playoffWins + playoffLoss;
+                    playoffWinPerc = playoffWins / playoffWinPerc
+
 				//set current champ
 				if ($.inArray(intYear.toString(), titleYears) != -1) {
 					$('#' + team).addClass('currentChamp');
@@ -492,6 +585,8 @@ var pageBuilder = {
                     '<span class="winperc">' + winPerc.toFixed(3) + '%</span>' +
                     '<span class="pf">' + totalPointsFor.toFixed(2) + '</span>' +
                     '<span class="pa">' + totalPointsA.toFixed(2) + '</span>' +
+                    '<span class="poRecord">' + playoffWins + ' - ' + playoffLoss + '</span>' +
+                    '<span class="poPerc">' + playoffWinPerc.toFixed(3) + '%</span>' +
                     '<span class="titles">' + titleNum + ' ' + titleYearsStr + '</span>' +
                     '<span class="toiletBowl">' + tbNum + ' ' + tbStr + '</span>' +
                     '</div>';
@@ -502,6 +597,8 @@ var pageBuilder = {
                 $('#' + team).attr('data-pa', totalPointsA.toFixed(2));
                 $('#' + team).attr('data-title', titleNum);
                 $('#' + team).attr('data-tb', tbNum);
+                $('#' + team).attr('data-powin', playoffWins);
+                $('#' + team).attr('data-poperc', playoffWinPerc);
                 $('#' + team).attr('data-compId', teamId);
                 $('#' + team).html(eachStat);
 
@@ -525,7 +622,7 @@ var pageBuilder = {
             $(this).prepend(rankHtml);
         });
 	},
-	  setMembers: function(members) {
+	setMembers: function(members) {
 		if (members === 'allTime') {
 			useAllTime = true;
 		} else if (members === 'current') {
@@ -535,7 +632,7 @@ var pageBuilder = {
 		$('#' + members).addClass('on');
 		pageBuilder.initPage();
 	},
-	  updateTagline: function () {
+	updateTagline: function () {
 		$('.fancy').text(tagline);
     },
     prepCompNav: function (curId) {
@@ -1056,7 +1153,7 @@ var easterEggs = {
 };
 
 $(document).ready(function() {
-	  pageBuilder.updateTagline();
+	pageBuilder.updateTagline();
     dataHandler.setCookies();
 });
 

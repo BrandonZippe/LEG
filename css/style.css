@@ -76,6 +76,8 @@ main {float: left;width: 100%;position: relative;background:#fff;}
 .pa:before {content: 'Points against: ';}
 .titles:before {content: 'Titles: ';}
 .toiletBowl:before {content: 'Toilet Bowls: ';}
+.poRecord:before {content: 'Playoff Record: ';}
+.poPerc:before {content: 'Playoff Win %: ';}
 .wins:before {content: 'Wins: ';}
 .losses:before {content: 'Loses: ';}
 .ties:before {content: 'Ties: ';}
@@ -176,6 +178,7 @@ footer a {color: #444;}
   background-position: center center;
   background-color: #f1f1f1;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .currentToilet:hover {
