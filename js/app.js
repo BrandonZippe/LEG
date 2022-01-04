@@ -512,13 +512,6 @@ var pageBuilder = {
 
             $.each(allTeamData[team], function(i) {
                 var teamId = allTeamData[team][i].teamId;
-                var year = allTeamData[team][i].season;
-                if (year <= 2016 && teamId === 3) {
-                    teamId = washId;
-                }
-                if (year <= 2018 && teamId === 12) {
-                    teamId = chadId;
-                }
 				var d = allTeamData[team][i].record.overall;
 
                 //points For
@@ -564,8 +557,8 @@ var pageBuilder = {
 				}
 
                 //Playoff Record
-                var playoffWins = allPlayoffWins[0][teamId].length;
-                var playoffLoss = allPlayoffLoss[0][teamId].length;
+                var playoffWins = allPlayoffWins[0][teamId] != undefined ? allPlayoffWins[0][teamId].length : 0;
+                var playoffLoss = allPlayoffLoss[0][teamId] != undefined ? allPlayoffLoss[0][teamId].length : 0;
 
                 //playoff win percentage
                 var playoffWinPerc = playoffWins + playoffLoss;
