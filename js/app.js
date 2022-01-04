@@ -512,6 +512,12 @@ var pageBuilder = {
 
             $.each(allTeamData[team], function(i) {
                 var teamId = allTeamData[team][i].teamId;
+                if (year <= 2016 && teamId === 3) {
+                    teamId = washId;
+                }
+                if (year <= 2018 && teamId === 12) {
+                    teamId = chadId;
+                }
 				var d = allTeamData[team][i].record.overall;
 
                 //points For
