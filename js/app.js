@@ -393,7 +393,7 @@ var dataHandler = {
             var playoffGames = [];
 
             $.each(games, function(index){
-                var isPlayoff = games[index].playoffTierType != "NONE" && games[index].winner != "UNDECIDED";
+                var isPlayoff = games[index].playoffTierType === "WINNERS_BRACKET" && games[index].winner != "UNDECIDED";
                 if (isPlayoff) {
                     playoffGames.push(games[index]);
                 }
