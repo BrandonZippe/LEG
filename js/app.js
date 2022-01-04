@@ -22,6 +22,9 @@ var dataHandler = {
 
           var eachYear = leagueYears[i];
           var reqPath = leagueDataPath + eachYear;
+          if (Number(eachYear) === Number(curYear)) {
+            reqPath = 'https://fantasy.espn.com/apis/v3/games/ffl/seasons/' + curYear + '/segments/0/leagues/628822?view=mMatchupScore&view=mScoreboard&view=mStatus&view=mSettings&view=mTeam&view=mPendingTransactions&view=modular&view=mNav';
+          }
           $.ajax({
                 url: reqPath,
                 type: 'GET',
@@ -30,6 +33,8 @@ var dataHandler = {
                 success: function (data, textStatus, xhr) {
                   if (textStatus === 'success') {
                     dataHandler.prepData(data[0]);
+                  } else {
+                      return
                   }
                 },
                 error: function (xhr, textStatus, errorThrown) {
@@ -39,6 +44,8 @@ var dataHandler = {
                       $.getJSON(jsonFile, function(data) {
                         dataHandler.prepData(data);
                       });
+                    } else {
+                        return
                     }
 
                   } catch(err) {
@@ -48,20 +55,20 @@ var dataHandler = {
                   }
                 }
             });
-          // console.log(Number(eachYear));
-          // console.log(Number(curYear));
-          // if (Number(eachYear) === Number(curYear)) {
-          //   // console.log(curYear);
-          //   //reqPath = curYearLeaguePath + eachYear + curYearLeaguePathEnd;
-          //   //reqPath = "https://fantasy.espn.com/apis/v3/games/ffl/seasons/2019/segments/0/leagues/628822?view=mMatchupScore&view=mScoreboard&view=mStatus&view=mSettings&view=mTeam&view=mPendingTransactions&view=modular&view=mNav";
-          //   //console.log(reqPath);
-          //   var jsonFile = 'json/' + curYear + '.json';
-          //   $.getJSON(jsonFile, function(data) {
-          //     dataHandler.prepData(data);
-          //   });
-          // } else {
-
-          //}
+            // console.log(Number(eachYear));
+            // console.log(Number(curYear));
+            // if (Number(eachYear) === Number(curYear)) {
+            //   // console.log(curYear);
+            //   //reqPath = curYearLeaguePath + eachYear + curYearLeaguePathEnd;
+            //   reqPath = 'https://fantasy.espn.com/apis/v3/games/ffl/seasons/' + curYear + '/segments/0/leagues/628822?view=mMatchupScore&view=mScoreboard&view=mStatus&view=mSettings&view=mTeam&view=mPendingTransactions&view=modular&view=mNav';
+            //   //console.log(reqPath);
+            //   var jsonFile = 'json/' + curYear + '.json';
+            //   $.getJSON(jsonFile, function(data) {
+            //     dataHandler.prepData(data);
+            //   });
+            // } else {
+  
+            // }
 
 
       });

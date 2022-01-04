@@ -68,7 +68,7 @@ var accoladeData = {
     'toiletBowl': ['2018']
   },
   'Kevin_Dunnigan': {
-    'titles': ['2016'],
+    'titles': ['2016', '2021'],
     'toiletBowl': []
   },
   'Nick_Mayfield': {
@@ -77,7 +77,7 @@ var accoladeData = {
   },
   'Stephen_Smith': {
     'titles': ['2012'],
-    'toiletBowl': ['2013', '2020']
+    'toiletBowl': ['2013', '2020', '2021']
   },
   'anthony_washington': {
     'titles': [],
