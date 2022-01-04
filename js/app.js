@@ -512,6 +512,7 @@ var pageBuilder = {
 
             $.each(allTeamData[team], function(i) {
                 var teamId = allTeamData[team][i].teamId;
+                var year = allTeamData[team][i].season;
                 if (year <= 2016 && teamId === 3) {
                     teamId = washId;
                 }
