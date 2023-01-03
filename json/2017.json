@@ -47834,5 +47834,2765 @@
             "trades": 1
         },
         "waiverRank": 2
-    }]
+    }],
+    "schedule": [
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 83.74
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 83.74
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 96.74
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 96.74
+        },
+        "id": 0,
+        "matchupPeriodId": 1,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 117.08
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 117.08
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 55.58
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 55.58
+        },
+        "id": 1,
+        "matchupPeriodId": 1,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 65.24
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 65.24
+        },
+        "id": 2,
+        "matchupPeriodId": 1,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 103.48
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 103.48
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 83.34
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 83.34
+        },
+        "id": 3,
+        "matchupPeriodId": 1,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 109.32
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 109.32
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 118.14
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 118.14
+        },
+        "id": 4,
+        "matchupPeriodId": 1,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 76.14
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 76.14
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 104.02
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 104.02
+        },
+        "id": 5,
+        "matchupPeriodId": 1,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 73.72
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 73.72
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "1": 55.4
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 55.4
+        },
+        "id": 6,
+        "matchupPeriodId": 1,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 93.88
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 93.88
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 113.4
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 113.4
+        },
+        "id": 7,
+        "matchupPeriodId": 2,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 78.4
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 78.4
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 96.38
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 96.38
+        },
+        "id": 8,
+        "matchupPeriodId": 2,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 77.52
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 77.52
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 95.22
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 95.22
+        },
+        "id": 9,
+        "matchupPeriodId": 2,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 121.08
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 121.08
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 102.42
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 102.42
+        },
+        "id": 10,
+        "matchupPeriodId": 2,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 85.82
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 85.82
+        },
+        "id": 11,
+        "matchupPeriodId": 2,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 80.84
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 80.84
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 75.52
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 75.52
+        },
+        "id": 12,
+        "matchupPeriodId": 2,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 99.22
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 99.22
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "2": 65.88
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 65.88
+        },
+        "id": 13,
+        "matchupPeriodId": 2,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 92.9
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 92.9
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 80.66
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 80.66
+        },
+        "id": 14,
+        "matchupPeriodId": 3,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 48.22
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 48.22
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 98.82
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 98.82
+        },
+        "id": 15,
+        "matchupPeriodId": 3,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 105.62
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 105.62
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 135.76
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 135.76
+        },
+        "id": 16,
+        "matchupPeriodId": 3,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 82.62
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 82.62
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 102.28
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 102.28
+        },
+        "id": 17,
+        "matchupPeriodId": 3,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 102.9
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 102.9
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 60.08
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 60.08
+        },
+        "id": 18,
+        "matchupPeriodId": 3,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 91.9
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 91.9
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 98.42
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 98.42
+        },
+        "id": 19,
+        "matchupPeriodId": 3,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "3": 96.58
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 96.58
+        },
+        "id": 20,
+        "matchupPeriodId": 3,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 112
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 112
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 56.66
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 56.66
+        },
+        "id": 21,
+        "matchupPeriodId": 4,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 62.16
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 62.16
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 83.18
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 83.18
+        },
+        "id": 22,
+        "matchupPeriodId": 4,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 70.74
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 70.74
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 100.48
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 100.48
+        },
+        "id": 23,
+        "matchupPeriodId": 4,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 86.12
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 86.12
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 79.52
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 79.52
+        },
+        "id": 24,
+        "matchupPeriodId": 4,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 91.78
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 91.78
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 130.9
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 130.9
+        },
+        "id": 25,
+        "matchupPeriodId": 4,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 73.74
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 73.74
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 76.28
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 76.28
+        },
+        "id": 26,
+        "matchupPeriodId": 4,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "4": 119.84
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 119.84
+        },
+        "id": 27,
+        "matchupPeriodId": 4,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 54.44
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 54.44
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 66.44
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 66.44
+        },
+        "id": 28,
+        "matchupPeriodId": 5,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 60.58
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 60.58
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 90.54
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 90.54
+        },
+        "id": 29,
+        "matchupPeriodId": 5,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 114.22
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 114.22
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 61.22
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 61.22
+        },
+        "id": 30,
+        "matchupPeriodId": 5,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 76.42
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 76.42
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 118.46
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 118.46
+        },
+        "id": 31,
+        "matchupPeriodId": 5,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 109.08
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 109.08
+        },
+        "id": 32,
+        "matchupPeriodId": 5,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 70.32
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 70.32
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 108.42
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 108.42
+        },
+        "id": 33,
+        "matchupPeriodId": 5,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 91.5
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 91.5
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "5": 96.36
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 96.36
+        },
+        "id": 34,
+        "matchupPeriodId": 5,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 99
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 99
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 76.34
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 76.34
+        },
+        "id": 35,
+        "matchupPeriodId": 6,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 93.98
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 93.98
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 98.58
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 98.58
+        },
+        "id": 36,
+        "matchupPeriodId": 6,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 101.14
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 101.14
+        },
+        "id": 37,
+        "matchupPeriodId": 6,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 62.32
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 62.32
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 95.64
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 95.64
+        },
+        "id": 38,
+        "matchupPeriodId": 6,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 86.7
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 86.7
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 95.76
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 95.76
+        },
+        "id": 39,
+        "matchupPeriodId": 6,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 98.98
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 98.98
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 86.32
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 86.32
+        },
+        "id": 40,
+        "matchupPeriodId": 6,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 97.28
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 97.28
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "6": 86.72
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 86.72
+        },
+        "id": 41,
+        "matchupPeriodId": 6,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 59.06
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 59.06
+        },
+        "id": 42,
+        "matchupPeriodId": 7,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 84.82
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 84.82
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 92.04
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 92.04
+        },
+        "id": 43,
+        "matchupPeriodId": 7,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 81.64
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 81.64
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 133.12
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 133.12
+        },
+        "id": 44,
+        "matchupPeriodId": 7,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 97.48
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 97.48
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 105.86
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 105.86
+        },
+        "id": 45,
+        "matchupPeriodId": 7,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 95.82
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 95.82
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 104.32
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 104.32
+        },
+        "id": 46,
+        "matchupPeriodId": 7,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 86.86
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 86.86
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 83.48
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 83.48
+        },
+        "id": 47,
+        "matchupPeriodId": 7,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 82.76
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 82.76
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "7": 84.46
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 84.46
+        },
+        "id": 48,
+        "matchupPeriodId": 7,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 85.82
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 85.82
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 96.74
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 96.74
+        },
+        "id": 49,
+        "matchupPeriodId": 8,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 84.42
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 84.42
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 54.3
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 54.3
+        },
+        "id": 50,
+        "matchupPeriodId": 8,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 86.56
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 86.56
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 87.18
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 87.18
+        },
+        "id": 51,
+        "matchupPeriodId": 8,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 86.72
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 86.72
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 112.48
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 112.48
+        },
+        "id": 52,
+        "matchupPeriodId": 8,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 97.56
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 97.56
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 55.5
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 55.5
+        },
+        "id": 53,
+        "matchupPeriodId": 8,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 84.92
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 84.92
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 122.52
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 122.52
+        },
+        "id": 54,
+        "matchupPeriodId": 8,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "8": 78.02
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 78.02
+        },
+        "id": 55,
+        "matchupPeriodId": 8,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 90.36
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 90.36
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 115.74
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 115.74
+        },
+        "id": 56,
+        "matchupPeriodId": 9,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 57.08
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 57.08
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 85.98
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 85.98
+        },
+        "id": 57,
+        "matchupPeriodId": 9,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 123.84
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 123.84
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 87.46
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 87.46
+        },
+        "id": 58,
+        "matchupPeriodId": 9,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 90.48
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 90.48
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 86.52
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 86.52
+        },
+        "id": 59,
+        "matchupPeriodId": 9,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 95.9
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 95.9
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 64.3
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 64.3
+        },
+        "id": 60,
+        "matchupPeriodId": 9,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 72.88
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 72.88
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 88.42
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 88.42
+        },
+        "id": 61,
+        "matchupPeriodId": 9,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "9": 42.5
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 42.5
+        },
+        "id": 62,
+        "matchupPeriodId": 9,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 110.36
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 110.36
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 107.08
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 107.08
+        },
+        "id": 63,
+        "matchupPeriodId": 10,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 94.14
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 94.14
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 69.9
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 69.9
+        },
+        "id": 64,
+        "matchupPeriodId": 10,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 91.86
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 91.86
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 51.54
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 51.54
+        },
+        "id": 65,
+        "matchupPeriodId": 10,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 102.74
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 102.74
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 94.02
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 94.02
+        },
+        "id": 66,
+        "matchupPeriodId": 10,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 127.36
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 127.36
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 66.64
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 66.64
+        },
+        "id": 67,
+        "matchupPeriodId": 10,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 76.8
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 76.8
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 106.18
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 106.18
+        },
+        "id": 68,
+        "matchupPeriodId": 10,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "10": 72.76
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 72.76
+        },
+        "id": 69,
+        "matchupPeriodId": 10,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 91.22
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 91.22
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 39.8
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 39.8
+        },
+        "id": 70,
+        "matchupPeriodId": 11,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 74
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 74
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 116
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 116
+        },
+        "id": 71,
+        "matchupPeriodId": 11,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 109.36
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 109.36
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 106.9
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 106.9
+        },
+        "id": 72,
+        "matchupPeriodId": 11,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 82.92
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 82.92
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 113.26
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 113.26
+        },
+        "id": 73,
+        "matchupPeriodId": 11,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 74.6
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 74.6
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 95.2
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 95.2
+        },
+        "id": 74,
+        "matchupPeriodId": 11,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 122.58
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 122.58
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 110.16
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 110.16
+        },
+        "id": 75,
+        "matchupPeriodId": 11,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "11": 52.7
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 52.7
+        },
+        "id": 76,
+        "matchupPeriodId": 11,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 92.74
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 92.74
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 78.48
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 78.48
+        },
+        "id": 77,
+        "matchupPeriodId": 12,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 108.78
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 108.78
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 105.78
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 105.78
+        },
+        "id": 78,
+        "matchupPeriodId": 12,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 95.56
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 95.56
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 98.14
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 98.14
+        },
+        "id": 79,
+        "matchupPeriodId": 12,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 95.06
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 95.06
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 87.72
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 87.72
+        },
+        "id": 80,
+        "matchupPeriodId": 12,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 104.5
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 104.5
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 74.92
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 74.92
+        },
+        "id": 81,
+        "matchupPeriodId": 12,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 68.82
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 68.82
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 105.48
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 105.48
+        },
+        "id": 82,
+        "matchupPeriodId": 12,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "12": 80.5
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 80.5
+        },
+        "id": 83,
+        "matchupPeriodId": 12,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 108.56
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 108.56
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 92.62
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 92.62
+        },
+        "id": 84,
+        "matchupPeriodId": 13,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 75.06
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 75.06
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 80.68
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 80.68
+        },
+        "id": 85,
+        "matchupPeriodId": 13,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 91.74
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 91.74
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 95.8
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 95.8
+        },
+        "id": 86,
+        "matchupPeriodId": 13,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 90.12
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 90.12
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 135.18
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 135.18
+        },
+        "id": 87,
+        "matchupPeriodId": 13,
+        "playoffTierType": "NONE",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 116.58
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 116.58
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 66.8
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 66.8
+        },
+        "id": 88,
+        "matchupPeriodId": 13,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 101.62
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 101.62
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 76.64
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 76.64
+        },
+        "id": 89,
+        "matchupPeriodId": 13,
+        "playoffTierType": "NONE",
+        "winner": "AWAY"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "13": 80.86
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 80.86
+        },
+        "id": 90,
+        "matchupPeriodId": 13,
+        "playoffTierType": "NONE",
+        "winner": "UNDECIDED"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 92.8
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 92.8
+        },
+        "id": 91,
+        "matchupPeriodId": 14,
+        "playoffTierType": "WINNERS_BRACKET",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 72.02
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 72.02
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 132.86
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 132.86
+        },
+        "id": 92,
+        "matchupPeriodId": 14,
+        "playoffTierType": "WINNERS_BRACKET",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 80.02
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 80.02
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 71.76
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 71.76
+        },
+        "id": 93,
+        "matchupPeriodId": 14,
+        "playoffTierType": "WINNERS_BRACKET",
+        "winner": "AWAY"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 79.54
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 79.54
+        },
+        "id": 94,
+        "matchupPeriodId": 14,
+        "playoffTierType": "WINNERS_BRACKET",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 85.94
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 85.94
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 90.64
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 90.64
+        },
+        "id": 95,
+        "matchupPeriodId": 14,
+        "playoffTierType": "LOSERS_CONSOLATION_LADDER",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 88.46
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 88.46
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 117.88
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 117.88
+        },
+        "id": 96,
+        "matchupPeriodId": 14,
+        "playoffTierType": "LOSERS_CONSOLATION_LADDER",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 82.54
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 82.54
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 82.18
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 82.18
+        },
+        "id": 97,
+        "matchupPeriodId": 14,
+        "playoffTierType": "LOSERS_CONSOLATION_LADDER",
+        "winner": "AWAY"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "14": 119.14
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 119.14
+        },
+        "id": 98,
+        "matchupPeriodId": 14,
+        "playoffTierType": "LOSERS_CONSOLATION_LADDER",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 118.88
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 118.88
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 87.74
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 87.74
+        },
+        "id": 99,
+        "matchupPeriodId": 15,
+        "playoffTierType": "WINNERS_BRACKET",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 112.44
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 112.44
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 98.98
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 98.98
+        },
+        "id": 100,
+        "matchupPeriodId": 15,
+        "playoffTierType": "WINNERS_BRACKET",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 84.72
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 84.72
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 89.74
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 89.74
+        },
+        "id": 101,
+        "matchupPeriodId": 15,
+        "playoffTierType": "WINNERS_CONSOLATION_LADDER",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 103.58
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 103.58
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 68.68
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 68.68
+        },
+        "id": 102,
+        "matchupPeriodId": 15,
+        "playoffTierType": "LOSERS_CONSOLATION_LADDER",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 124.54
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 124.54
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 97.94
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 97.94
+        },
+        "id": 103,
+        "matchupPeriodId": 15,
+        "playoffTierType": "LOSERS_CONSOLATION_LADDER",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 106.88
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 106.88
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 94.04
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 94.04
+        },
+        "id": 104,
+        "matchupPeriodId": 15,
+        "playoffTierType": "LOSERS_CONSOLATION_LADDER",
+        "winner": "AWAY"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "15": 87.78
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 87.78
+        },
+        "id": 105,
+        "matchupPeriodId": 15,
+        "playoffTierType": "LOSERS_CONSOLATION_LADDER",
+        "winner": "UNDECIDED"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 96.28
+        },
+        "teamId": 8,
+        "tiebreak": 0,
+        "totalPoints": 96.28
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 89.9
+        },
+        "teamId": 12,
+        "tiebreak": 0,
+        "totalPoints": 89.9
+        },
+        "id": 106,
+        "matchupPeriodId": 16,
+        "playoffTierType": "WINNERS_BRACKET",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 57.02
+        },
+        "teamId": 6,
+        "tiebreak": 0,
+        "totalPoints": 57.02
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 114.56
+        },
+        "teamId": 5,
+        "tiebreak": 0,
+        "totalPoints": 114.56
+        },
+        "id": 107,
+        "matchupPeriodId": 16,
+        "playoffTierType": "WINNERS_CONSOLATION_LADDER",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 97.86
+        },
+        "teamId": 9,
+        "tiebreak": 0,
+        "totalPoints": 97.86
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 91.64
+        },
+        "teamId": 11,
+        "tiebreak": 0,
+        "totalPoints": 91.64
+        },
+        "id": 108,
+        "matchupPeriodId": 16,
+        "playoffTierType": "WINNERS_CONSOLATION_LADDER",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 93.86
+        },
+        "teamId": 2,
+        "tiebreak": 0,
+        "totalPoints": 93.86
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 72.64
+        },
+        "teamId": 13,
+        "tiebreak": 0,
+        "totalPoints": 72.64
+        },
+        "id": 109,
+        "matchupPeriodId": 16,
+        "playoffTierType": "LOSERS_CONSOLATION_LADDER",
+        "winner": "AWAY"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 38.42
+        },
+        "teamId": 7,
+        "tiebreak": 0,
+        "totalPoints": 38.42
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 102.32
+        },
+        "teamId": 4,
+        "tiebreak": 0,
+        "totalPoints": 102.32
+        },
+        "id": 110,
+        "matchupPeriodId": 16,
+        "playoffTierType": "LOSERS_CONSOLATION_LADDER",
+        "winner": "HOME"
+        },
+        {
+        "away": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 53.3
+        },
+        "teamId": 1,
+        "tiebreak": 0,
+        "totalPoints": 53.3
+        },
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 69.26
+        },
+        "teamId": 3,
+        "tiebreak": 0,
+        "totalPoints": 69.26
+        },
+        "id": 111,
+        "matchupPeriodId": 16,
+        "playoffTierType": "LOSERS_CONSOLATION_LADDER",
+        "winner": "HOME"
+        },
+        {
+        "home": {
+        "adjustment": 0,
+        "gamesPlayed": 0,
+        "pointsByScoringPeriod": {
+        "16": 95.88
+        },
+        "teamId": 10,
+        "tiebreak": 0,
+        "totalPoints": 95.88
+        },
+        "id": 112,
+        "matchupPeriodId": 16,
+        "playoffTierType": "LOSERS_CONSOLATION_LADDER",
+        "winner": "UNDECIDED"
+        }
+    ]
 }

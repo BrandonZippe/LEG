@@ -37,6 +37,13 @@ h1 {
   font-size: 25px;
 }
 
+.loading {
+  display: block;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 20px;
+  margin: 5em 0em;
+  text-align: center;
+}
 
 main {float: left;width: 100%;position: relative;background:#fff;}
 .contentBox {

@@ -12,65 +12,39 @@ var dataHandler = {
         leagueYears.push(i.toString());
 
         if (leagueYears.length - 1 === legYears) {
-          dataHandler.fetchLeagueData();
+            dataHandler.fetchLeagueData();
         }
 
       }
     },
     fetchLeagueData: function () {
       $.each(leagueYears, function(i) {
-
-          var eachYear = leagueYears[i];
-          var reqPath = leagueDataPath + eachYear;
-          if (Number(eachYear) === Number(curYear)) {
-            reqPath = 'https://fantasy.espn.com/apis/v3/games/ffl/seasons/' + curYear + '/segments/0/leagues/628822?view=mMatchupScore&view=mScoreboard&view=mStatus&view=mSettings&view=mTeam&view=mPendingTransactions&view=modular&view=mNav';
-          }
-          $.ajax({
-                url: reqPath,
+        var eachYear = leagueYears[i];
+        if (Number(eachYear) != Number(curYear) && Number(eachYear) < Number(sleeperYear)) {
+            var jsonFile = 'json/' + eachYear + '.json';
+            $.getJSON(jsonFile, function(data) {
+              dataHandler.prepData(data);
+            });
+          } else {
+            $.ajax({
+                url: sleeperRostersPath,
                 type: 'GET',
                 dataType: 'json',
                 cache: true,
                 success: function (data, textStatus, xhr) {
                   if (textStatus === 'success') {
-                    dataHandler.prepData(data[0]);
-                  } else {
-                      return
+                    sleeperLeagueData = data;
+                    //sleeperRegSeason = data.settings.last_report;
                   }
                 },
                 error: function (xhr, textStatus, errorThrown) {
-                  try {
-                    if (Number(eachYear) != Number(curYear)) {
-                      var jsonFile = 'json/' + eachYear + '.json';
-                      $.getJSON(jsonFile, function(data) {
-                        dataHandler.prepData(data);
-                      });
-                    } else {
-                        return
-                    }
-
-                  } catch(err) {
                     //TODO Handle error
                     var errorMsg = textStatus + ': No data available for the ' + eachYear + ' season yet.';
                     console.log(errorMsg);
-                  }
                 }
             });
-            // console.log(Number(eachYear));
-            // console.log(Number(curYear));
-            // if (Number(eachYear) === Number(curYear)) {
-            //   // console.log(curYear);
-            //   //reqPath = curYearLeaguePath + eachYear + curYearLeaguePathEnd;
-            //   reqPath = 'https://fantasy.espn.com/apis/v3/games/ffl/seasons/' + curYear + '/segments/0/leagues/628822?view=mMatchupScore&view=mScoreboard&view=mStatus&view=mSettings&view=mTeam&view=mPendingTransactions&view=modular&view=mNav';
-            //   //console.log(reqPath);
-            //   var jsonFile = 'json/' + curYear + '.json';
-            //   $.getJSON(jsonFile, function(data) {
-            //     dataHandler.prepData(data);
-            //   });
-            // } else {
-  
-            // }
-
-
+          }
+          
       });
     },
     prepData: function(data) {
@@ -101,7 +75,6 @@ var dataHandler = {
 
             var teams = data.teams[i];
             var teamId = teams.id;
-
             var id = teams.primaryOwner;
             var owner = '';
 
@@ -125,6 +98,9 @@ var dataHandler = {
             if (year <= 2018 && teamId === 12) {
                 teamId = chadId;
             }
+
+            var sleeperId = sleeperUserConfig[owner] != undefined ? sleeperUserConfig[owner].id : '';
+            
             teamData = {
                 "season": year,
                 "teamId": teamId,
@@ -134,10 +110,11 @@ var dataHandler = {
                 "logo": logo,
                 "transactions": transactions,
                 "playoff_wins": [],
-                "playoff_loss": []
+                "playoff_loss": [],
+                "sleeperId": sleeperId
             }
 
-            teamIdData = {"owner": owner,"teamId": teamId};
+            teamIdData = {"owner": owner,"teamId": teamId, "sleeperId": sleeperId};
             eachTeamIdData.push(teamIdData);
 
 
@@ -219,6 +196,7 @@ var dataHandler = {
 
             $.each(data, function(index) {
                 if (member == data.owner) {
+                
                   var recData = data.record.overall;
                   var pf = recData.pointsFor;
                   var pa = recData.pointsAgainst;
@@ -464,6 +442,13 @@ var dataHandler = {
     }
 }
 
+var sleeperDataPrep = {
+    //methods
+    prepData: function (data) {
+
+    }
+}
+
 var pageBuilder = {
     //methods
     initPage: function() {
@@ -509,35 +494,60 @@ var pageBuilder = {
             var tiesArr = [];
             var lossStreak = [];
 			var winStreak = [];
+            var sleeperWins = '';
+            var sleeperLoss = '';
+            var sleeperPF = '';
+            var sleeperPA = '';
+            var sleeperTies = '';
 
             $.each(allTeamData[team], function(i) {
                 var teamId = allTeamData[team][i].teamId;
 				var d = allTeamData[team][i].record.overall;
+                var sleeperId = allTeamData[team][i].sleeperId;
+                var season = allTeamData[team][i].season;
 
+                if (sleeperId != '' && season >= 2021) {
+                    $.each(sleeperLeagueData, function(index) {
+                        var sd = sleeperLeagueData[index];
+                        if (sleeperId == sd.owner_id) {
+                            sleeperWins = sd.settings.wins;
+                            sleeperLoss = sd.settings.losses;
+                            sleeperPF = Number(sd.settings.fpts + '.' + sd.settings.fpts_decimal);
+                            sleeperPA = Number(sd.settings.fpts_against + '.' + sd.settings.fpts_against_decimal);
+                            sleeperTies = sd.settings.ties;
+
+                        }
+                    });
+                }
                 //points For
                 var pointsFor = d.pointsFor;
                 pointsForArr.push(pointsFor);
+                sleeperPF != '' ? pointsForArr.push(sleeperPF) : '';
                 totalPointsFor = pointsForArr.reduce(utils.getSum);
 
                 //points against
                 var pointsA = d.pointsAgainst;
                 pointsAgainstArr.push(pointsA);
+                sleeperPA != '' ? pointsAgainstArr.push(sleeperPA) : '';
                 totalPointsA = pointsAgainstArr.reduce(utils.getSum);
 
                 //wins
                 var wins = d.wins;
                 winArr.push(wins);
+                sleeperWins != '' ? winArr.push(sleeperWins) : '';
                 totalWins = winArr.reduce(utils.getSum);
 
                 //losses
                 var loss = d.losses;
                 lossArr.push(loss);
+                sleeperLoss != '' ? lossArr.push(sleeperLoss) : '';
                 totalLoss = lossArr.reduce(utils.getSum);
 
                 //ties
                 var ties = d.ties;
                 var totalTiesStr = '';
                 tiesArr.push(ties);
+                sleeperTies != '' ? tiesArr.push(sleeperTies) : '';
                 totalTies = tiesArr.reduce(utils.getSum);
                 if (totalTies !== 0) {
                   totalTiesStr = ' - ' + totalTies.toString();
@@ -1160,7 +1170,7 @@ var easterEggs = {
 
 $(document).ready(function() {
 	pageBuilder.updateTagline();
-    dataHandler.setCookies();
+    dataHandler.setLeagueYears();
 });
 
 $('.sortBtn').click(function() {
